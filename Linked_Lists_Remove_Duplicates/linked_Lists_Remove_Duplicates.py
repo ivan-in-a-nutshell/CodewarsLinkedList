@@ -13,11 +13,3 @@ def remove_duplicates(head):
             continue
         curr_node = curr_node.next
     return head
-
-a = Node(1)
-b = Node(2)
-c = Node(3)
-a.next = b
-b.next = c
-
-remove_duplicates(a)
